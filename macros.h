@@ -1,6 +1,6 @@
 #ifndef HELPERS_H
 #define HELPERS_H
-
+typedef int make_iso_compilers_happy;
 /* Prompt to be printed */
 #define PROMPT_MSG "$" /* Needed to work with signal */
 
@@ -56,5 +56,4 @@
 "	setenv\t[variable value]\n"\
 "	unset\t[variable]\n"\
 "	help\t[built_name]\n\n"
-
 #endif
